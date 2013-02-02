@@ -5,6 +5,8 @@ A clone of [EGOCache](https://github.com/enormego/EGOCache), but with the added 
 - (NSTimeInterval)ageForKey:(NSString *)key;
 ```
 
+This method makes it possible to create a "rolling cache", exactly as we do with the [LastFm library](https://github.com/gangverk/LastFm) in Last.fm's [Scrobbler for iOS](http://www.last.fm/hardware/ios) app.
+
 GVCache was created with a new name so a [CocoaPods](http://cocoapods.org) podspec could be shared independently from EGOCache.
 
 # About EGOCache 2.0
